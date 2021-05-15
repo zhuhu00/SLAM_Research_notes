@@ -47,9 +47,19 @@
 
 ## 3. 论文更新
 
+除了更新最近的，还将更新之前的，具体是啥还得待定。。
+
 ### 2021年4月论文更新
 
-除了更新最近的，还将更新之前的，具体是啥还得待定。。
+> 将于5.15更新
+
+**1.  Geometric SLAM**
+
+**2. Deep SLAM**
+
+- [ ] [1] Fond, Antoine et al. “[End-to-end learning of keypoint detection and matching for relative pose estimation](End-to-end learning of keypoint detection and matching for relative pose estimation).” (2021).
+  - 相对位置估计的**关键点检测和匹配**的**端到端学习**
+  - arxiv上, 暂时无代码
 
 
 
