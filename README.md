@@ -1,4 +1,5 @@
 > 首次更新于20210404，清明节的日子，开启这方面的学习跟踪，
+> 工作有来自于[Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)，[Visual_SLAM_Related_Research](https://github.com/wuxiaolang/Visual_SLAM_Related_Research)
 
 # SLAM_Research
 
