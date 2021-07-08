@@ -44,6 +44,12 @@
 
 > 将于7.15更新
 
+- [x] [1]A. Jelinek, A. Ligocki, and L. Zalud, “**Robotic Template Library,**” *arXiv:2107.00324 [cs]*, Jul. 2021, Accessed: Jul. 03, 2021. [Online]. Available: http://arxiv.org/abs/2107.00324
+  - 一种新的机器人的库，可能之后会和PCL等作为竞争品。
+  - 开源：https://github.com/Robotics-BUT/Robotic-Template-Library
+
+#### VT&R方面的论文更新
+
 - [ ] 
 
 ### 2021年5月论文更新
