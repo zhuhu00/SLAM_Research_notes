@@ -44,13 +44,29 @@
 
 > 将于7.15更新
 
-- [x] [1]A. Jelinek, A. Ligocki, and L. Zalud, “**Robotic Template Library,**” *arXiv:2107.00324 [cs]*, Jul. 2021, Accessed: Jul. 03, 2021. [Online]. Available: http://arxiv.org/abs/2107.00324
+- [x] [0]A. Jelinek, A. Ligocki, and L. Zalud, “**Robotic Template Library,**” *arXiv:2107.00324 [cs]*, Jul. 2021, Accessed: Jul. 03, 2021. [Online]. Available: http://arxiv.org/abs/2107.00324
   - 一种新的机器人的库，可能之后会和PCL等作为竞争品。
   - 开源：https://github.com/Robotics-BUT/Robotic-Template-Library
 
 #### VT&R方面的论文更新
 
-- [ ] 
+- [ ] [1]P. Furgale and T. Barfoot, “Stereo mapping and localization for long-range path following on rough terrain,” in *2010 IEEE International Conference on Robotics and Automation*, Anchorage, AK, May 2010, pp. 4410–4416. doi: [10.1109/ROBOT.2010.5509133](https://doi.org/10.1109/ROBOT.2010.5509133).
+
+  [2]P. Furgale and T. Barfoot, “Visual path following on a manifold in unstructured three-dimensional terrain,” in *2010 IEEE International Conference on Robotics and Automation*, May 2010, pp. 534–539. doi: [10.1109/ROBOT.2010.5509140](https://doi.org/10.1109/ROBOT.2010.5509140).
+
+  [3]P. Furgale and T. D. Barfoot, “Visual teach and repeat for long-range rover autonomy: Furgale & Barfoot: Visual Teach and Repeat for Long-Range Rover Autonomy,” *J. Field Robotics*, vol. 27, no. 5, pp. 534–560, Sep. 2010, doi: [10.1002/rob.20342](https://doi.org/10.1002/rob.20342).
+
+  - VT&R的最开始的文章，使用双目相机作为传感器进行long-range的导航问题。
+  - 加拿大宇航局，[数据集](http://asrl.utias.utoronto.ca/~ptf/JFR_VTnR/)
+
+- [x] [4]L. Sun *et al.*, “**Robust and Long-term Monocular Teach and Repeat Navigation using a Single-experience Map**,” *2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, p. 9.
+
+  - 深度Descriptor
+  - 开源
+
+- [ ] [5]M. Mattamala, M. Ramezani, M. Camurri, and M. Fallon, “**Learning Camera Performance Models for Active Multi-Camera Visual Teach and Repeat,**” *arXiv:2103.14070 [cs]*, Mar. 2021, Accessed: Jul. 07, 2021. [Online]. Available: http://arxiv.org/abs/2103.14070
+
+  - 
 
 ### 2021年5月论文更新
 
