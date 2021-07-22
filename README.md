@@ -1,5 +1,5 @@
-> 首次更新于20210404，清明节的日子，开启这方面的学习跟踪，
-> 工作有来自于[Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)，[Visual_SLAM_Related_Research](https://github.com/wuxiaolang/Visual_SLAM_Related_Research)
+首次更新于20210404，清明节的日子，开启这方面的学习跟踪，
+工作有来自于[Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)，[Visual_SLAM_Related_Research](https://github.com/wuxiaolang/Visual_SLAM_Related_Research)
 
 # SLAM_Research
 
@@ -7,7 +7,7 @@
 @E-mail:  huzhu00@gmail.com
 @Github:  [zhuhu00](https://github.com/zhuhu00)
 
-## 摘要
+# 摘要
 
 ​		整理前期主要以**视觉SLAM**为主，包含论文，代码，相关讲解（如果有的话），大概整理几个月会把**激光SLAM**也加上
 ​		目前收集的资料主要是一个大杂烩，研究的主要内容会从**多传感器融合以及TOF相机相关**去调整。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
@@ -24,7 +24,7 @@
 >
 >目前没有，哈哈哈哈
 
-## 目录
+# 目录
 
 1. 经典代码框架
 2. 优秀作者及实验室
@@ -32,43 +32,117 @@
 
 
 
-## 1. 经典代码框架及实验室
+# 1. 经典代码框架及实验室
 
 见[SLAM-approachs](https://github.com/zhuhu00/SLAM_Research_dzh/tree/main/SLAM-approachs)
 
-## 2. 论文更新
+# 2. 论文更新
 
 除了更新最近的，还将更新之前的，具体是啥还得待定。。
 
-### 2021年6月论文更新
+## 2021年6月论文更新
 
 > 将于7.15更新
 
-- [x] [0]A. Jelinek, A. Ligocki, and L. Zalud, “**Robotic Template Library,**” *arXiv:2107.00324 [cs]*, Jul. 2021, Accessed: Jul. 03, 2021. [Online]. Available: http://arxiv.org/abs/2107.00324
-  - 一种新的机器人的库，可能之后会和PCL等作为竞争品。
-  - 开源：https://github.com/Robotics-BUT/Robotic-Template-Library
+### SLAM系统
 
-#### VT&R方面的论文更新
+- [x] [1]S. Chen, C.-W. Chang, and C.-Y. Wen, “**Perception in the Dark; Development of a ToF Visual Inertial Odometry System**,” *Sensors*, vol. 20, no. 5, p. 1263, Feb. 2020, doi: [10.3390/s20051263](https://doi.org/10.3390/s20051263).
 
-- [ ] [1]P. Furgale and T. Barfoot, “Stereo mapping and localization for long-range path following on rough terrain,” in *2010 IEEE International Conference on Robotics and Automation*, Anchorage, AK, May 2010, pp. 4410–4416. doi: [10.1109/ROBOT.2010.5509133](https://doi.org/10.1109/ROBOT.2010.5509133).
+  - **ToF-VIO**，[开源](https://github.com/HKPolyU-UAV/TOF-VIO)
 
-  [2]P. Furgale and T. Barfoot, “Visual path following on a manifold in unstructured three-dimensional terrain,” in *2010 IEEE International Conference on Robotics and Automation*, May 2010, pp. 534–539. doi: [10.1109/ROBOT.2010.5509140](https://doi.org/10.1109/ROBOT.2010.5509140).
+- [x] [2]C. Yu *et al.*, “[**DS-SLAM: A Semantic Visual SLAM towards Dynamic Environments,**](https://doi.org/10.1109/IROS.2018.8593691)” *2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 1168–1174, Oct. 2018.
 
-  [3]P. Furgale and T. D. Barfoot, “Visual teach and repeat for long-range rover autonomy: Furgale & Barfoot: Visual Teach and Repeat for Long-Range Rover Autonomy,” *J. Field Robotics*, vol. 27, no. 5, pp. 534–560, Sep. 2010, doi: [10.1002/rob.20342](https://doi.org/10.1002/rob.20342).
+  - 动态的语义SLAM（ORB-SLAM2改进）
+  - **代码**：https://github.com/ivipsourcecode/DS-SLAM
+
+- [x] [3]T. Ji, C. Wang, and L. Xie, “**[Towards Real-time Semantic RGB-D SLAM in Dynamic Environments,](http://arxiv.org/abs/2104.01316)**” *arXiv:2104.01316 [cs]*, Apr. 2021, Accessed: Apr. 06, 2021.
+
+  -  框架与DS-SLAM类似，目前还未开源，ORB-SLAM2的改进，
+  - 深度和几何方法相结合去除语义信息。动态SLAM
+
+- [ ] [4]A. J. Yang, C. Cui, I. A. Bârsan, R. Urtasun, and S. Wang, “[**Asynchronous Multi-View SLAM,**](http://arxiv.org/abs/2101.06562)” *arXiv:2101.06562 [cs]*, Apr. 2021, Accessed: Jul. 01, 2021. 
+
+  - https://www.cs.toronto.edu/~ajyang/amv-slam/
+
+- [ ] [5]A. Cowley, I. D. Miller, and C. J. Taylor, “[**UPSLAM: Union of Panoramas SLAM,**]( http://arxiv.org/abs/2101.00585)” *arXiv:2101.00585 [cs]*, Jan. 2021, Accessed: Jul. 01, 2021. 
+
+  - ICRA2021
+
+- [ ] [6]H. Wang, C. Wang, and L. Xie, “**[Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment,](https://doi.org/10.1109/LRA.2021.3059567)**” *IEEE Robot. Autom. Lett.*, vol. 6, no. 2, pp. 1715–1721, Apr. 2021, doi: [10.1109/LRA.2021.3059567](https://doi.org/10.1109/LRA.2021.3059567).
+
+  - 基于激光雷达强度的SLAM
+  - [开源](https://github.com/wh200720041/intensity_slam)
+  - Han Wang, 南洋理工
+
+- [ ] [7]L. Li, X. Kong, X. Zhao, T. Huang, and Y. Liu, “**[SSC: Semantic Scan Context for Large-Scale Place Recognition,](http://arxiv.org/abs/2107.00382)**” *arXiv:2107.00382 [cs]*, Jul. 2021, Accessed: Jul. 03, 2021. 
+
+  - IROS 2021
+  - [开源](https://github.com/lilin-hitcrt/SSC)
+
+- [ ] [8]Y. Chang, Y. Tian, J. P. How, and L. Carlone, “**[Kimera-Multi: a System for Distributed Multi-Robot Metric-Semantic Simultaneous Localization and Mapping,](http://arxiv.org/abs/2011.04087)**” *arXiv:2011.04087 [cs]*, Nov. 2020, Accessed: Jul. 05, 2021. 
+
+  -  分布式SLAM
+  - MIT
+
+- [ ] [9]L. Zhang *et al.*, “An autonomous excavator system for material loading tasks,” *Science Robotics*, vol. 6, no. 55, Jun. 2021, doi: [10.1126/scirobotics.abc3164](https://doi.org/10.1126/scirobotics.abc3164).
+
+  - 百度
+  - 传感器有用livox
+
+- [ ] [10]C. Forster, L. Carlone, F. Dellaert, and D. Scaramuzza, “IMU Preintegration on Manifold for E cient Visual-Inertial Maximum-a-Posteriori Estimation,” p. 10.
+
+  [11]C. Forster, L. Carlone, F. Dellaert, and D. Scaramuzza, “IMU Preintegration on Manifold for Efficient Visual-Inertial Maximum-a-Posteriori Estimation,” presented at the Robotics: Science and Systems 2015, Jul. 2015. doi: [10.15607/RSS.2015.XI.006](https://doi.org/10.15607/RSS.2015.XI.006).
+
+  - IMU预积分
+
+- [ ] [11]G. Gallego *et al.*, “**[Event-based Vision: A Survey](https://doi.org/10.1109/TPAMI.2020.3008413)**,” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, pp. 1–1, 2020.
+
+### VT&R方面的论文更新
+
+- [x] [1]P. Furgale and T. Barfoot, “**Stereo mapping and localization for long-range path following on rough terrain,**” in *2010 IEEE International Conference on Robotics and Automation*, Anchorage, AK, May 2010, pp. 4410–4416. doi: [10.1109/ROBOT.2010.5509133](https://doi.org/10.1109/ROBOT.2010.5509133).
+
+  [2]P. Furgale and T. Barfoot, “**Visual path following on a manifold in unstructured three-dimensional terrain**,” in *2010 IEEE International Conference on Robotics and Automation*, May 2010, pp. 534–539. doi: [10.1109/ROBOT.2010.5509140](https://doi.org/10.1109/ROBOT.2010.5509140).
+
+  [3]P. Furgale and T. D. Barfoot, “**Visual teach and repeat for long-range rover autonomy: Furgale & Barfoot: Visual Teach and Repeat for Long-Range Rover Autonomy**,” *J. Field Robotics*, vol. 27, no. 5, pp. 534–560, Sep. 2010, doi: [10.1002/rob.20342](https://doi.org/10.1002/rob.20342).
 
   - VT&R的最开始的文章，使用双目相机作为传感器进行long-range的导航问题。
   - 加拿大宇航局，[数据集](http://asrl.utias.utoronto.ca/~ptf/JFR_VTnR/)
 
 - [x] [4]L. Sun *et al.*, “**Robust and Long-term Monocular Teach and Repeat Navigation using a Single-experience Map**,” *2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, p. 9.
 
-  - 深度Descriptor
+  - 深度学习的Descriptor
   - 开源
 
 - [ ] [5]M. Mattamala, M. Ramezani, M. Camurri, and M. Fallon, “**Learning Camera Performance Models for Active Multi-Camera Visual Teach and Repeat,**” *arXiv:2103.14070 [cs]*, Mar. 2021, Accessed: Jul. 07, 2021. [Online]. Available: http://arxiv.org/abs/2103.14070
 
-  - 
+  - ICRA2021, 牛津的四足，作为主动slam的其中一个方面，在给定路径的同时，能够安全进行VT&R的工作，
+  - 在仿真和实际中都进行了测试，同时在ICRA 2021的workshop中进行了介绍这种方法的安全性。
+  
+- [ ] [6]D. Dall’Osto, T. Fischer, and M. Milford, “[**Fast and Robust Bio-inspired Teach and Repeat Navigation,**](http://arxiv.org/abs/2010.11326)” *arXiv:2010.11326 [cs]*, Mar. 2021, Accessed: Jul. 07, 2021.
 
-### 2021年5月论文更新
+  - 新的思路去进行VT&R的工作
+
+### SLAM综述：
+
+- [x] [1]G. Huang, “**Visual-Inertial Navigation: A Concise Review,**” *arXiv:1906.02650 [cs]*, Jun. 2019, Accessed: Nov. 18, 2020. [Online]. Available: http://arxiv.org/abs/1906.02650
+  - Guoquan Huang
+  - VIN的综述
+
+### SLAM Benchmark 
+
+- [ ] [1]M. Bujanca *et al.*, “**SLAMBench 3.0: Systematic Automated Reproducible Evaluation of SLAM Systems for Robot Vision Challenges and Scene Understanding**,” in *2019 International Conference on Robotics and Automation (ICRA)*, Montreal, QC, Canada, May 2019, pp. 6351–6358. doi: [10/ghqdqd](https://doi.org/10/ghqdqd).
+  - 对动态SLAM和环境理解（类似语义分割）的slam的Benchmark
+  - [开源](https://github.com/mihaibujanca/slambench3)
+
+### 其他
+
+- [x] [0]A. Jelinek, A. Ligocki, and L. Zalud, “**Robotic Template Library,**” *arXiv:2107.00324 [cs]*, Jul. 2021, Accessed: Jul. 03, 2021. [Online]. Available: http://arxiv.org/abs/2107.00324
+  - 一种新的机器人的库，可能之后会和PCL等作为竞争品。
+  - 开源：https://github.com/Robotics-BUT/Robotic-Template-Library
+- [ ] [2]Q. Zhou, T. Sattler, M. Pollefeys, and L. Leal-Taixé, “**To Learn or Not to Learn: Visual Localization from Essential Matrices,**” in *2020 IEEE International Conference on Robotics and Automation (ICRA)*, May 2020, pp. 3319–3326. doi: [10/gh9smf](https://doi.org/10/gh9smf).
+  - 视觉定位，基于学习或者基于传统方法的比较，提出了新的方法
+
+## 2021年5月论文更新
 
 > 此次更新了17篇论文
 
@@ -104,8 +178,8 @@
 - [ ] [11]Z. Li *et al.*, “**Revisiting Stereo Depth Estimation From a Sequence-to-Sequence Perspective with Transformers**,” *arXiv:2011.02910 [cs]*, Mar. 2021, Accessed: May 25, 2021. [Online]. Available: http://arxiv.org/abs/2011.02910
   - 利用transformers从seq2seq中进行双目深度估计
   - [开源](https://github.com/mli0603/stereo-transformer)
-- [ ] [12]M. Labbé and F. Michaud, “[**RTAB-Map as an open-source lidar and visual simultaneous localization and mapping library for large-scale and long-term online operation**](https://doi.org/10/gf3bgd),” *Journal of Field Robotics*, vol. 36, no. 2, pp. 416–446, 2019, doi: [10/gf3bgd](https://doi.org/10/gf3bgd).
-  - RTab Map, 多传感器融合的一个好的框架，论文综述了许多SLAM算法的优缺点。还没读完
+- [x] [12]M. Labbé and F. Michaud, “[**RTAB-Map as an open-source lidar and visual simultaneous localization and mapping library for large-scale and long-term online operation**](https://doi.org/10/gf3bgd),” *Journal of Field Robotics*, vol. 36, no. 2, pp. 416–446, 2019, doi: [10/gf3bgd](https://doi.org/10/gf3bgd).
+  - RTab Map, 多传感器融合的一个好的框架，论文综述了许多SLAM算法的优缺点。**还没读完**
   - Introlab，[开源](https://github.com/introlab/rtabmap)
 - [x] [13]J. Jeon, S. Jung, E. Lee, D. Choi, and H. Myung, “**Run Your Visual-Inertial Odometry on NVIDIA Jetson: Benchmark Tests on a Micro Aerial Vehicle**,” *IEEE Robotics and Automation Letters*, vol. 6, no. 3, pp. 5332–5339, Jul. 2021, doi: [10/gkpqx8](https://doi.org/10/gkpqx8).
   - 在不同的Nvidia Jason板子上测试了很多的**VI/VIO**系统，主要包括three **mono-VIO**(VINS-Mono, ROVIO, and ALVIO), two **stereoVO** ORB-SLAM2 stereo and VINS-Fusion w/o IMU), and **four stereo-VIO** (VINS-Fusion w/IMU, VINS-Fusion w/GPU, Stereo-MSCKF, and Kimera) lgorithms and benchmark them on **NVIDIA Jetson TX2, Xavier NX, and AGX Xavier boards**. 同时自己建立了一个**[数据集](https://github.com/zinuok/kaistviodataset)**，包扩circle, infinity, square, and pure_rotation 这几种轨迹或者姿态。
@@ -122,7 +196,7 @@
 - [ ] [17]D. Wisth, M. Camurri, S. Das, and M. Fallon, “**Unified Multi-Modal Landmark Tracking for Tightly Coupled Lidar-Visual-Inertial Odometry,**” *IEEE Robot. Autom. Lett.*, vol. 6, no. 2, pp. 1004–1011, Apr. 2021, doi: [10/gjjm8s](https://doi.org/10/gjjm8s).
   - 多传感器融合，VI，slam。紧耦合的里程计。
 
-### 2021年4月论文更新
+## 2021年4月论文更新
 
 > 此次更新21篇论文
 

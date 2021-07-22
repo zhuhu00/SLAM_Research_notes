@@ -141,6 +141,10 @@
 + 论文：Carlos Campos, Richard Elvira, et al.[**ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM**](https://arxiv.org/abs/2007.11898)[J]. arXiv preprint arXiv:2007.11898, **2020**.
 + 代码：https://github.com/UZ-SLAMLab/ORB_SLAM3 | [Video](https://www.youtube.com/channel/UCXVt-kXG6T95Z4tVaYlU80Q)
 
+#### 24. ToF-VIO
+
+- 论文：S. Chen, C.-W. Chang, and C.-Y. Wen, “**[Perception in the Dark; Development of a ToF Visual Inertial Odometry System](https://doi.org/10.3390/s20051263)**,” *Sensors*, vol. 20, no. 5, p. 1263, Feb. 2020.
+
 ### :smile: 1.2 Semantic / Deep SLAM
 
 #### 1. MsakFusion
