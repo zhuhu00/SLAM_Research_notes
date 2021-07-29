@@ -40,9 +40,15 @@
 
 除了更新最近的，还将更新之前的，具体是啥还得待定。。
 
+## 2021年7月论文更新
+
+### SLAM系统
+
+
+
 ## 2021年6月论文更新
 
-> 将于7.15更新
+> 将于7.15更新,更新了11篇SLAM系统相关论文,VT&R的6篇论文,SLAM的综述或者benchmark论文2篇,其他5篇,其中有四篇来自CVPR 2021
 
 ### SLAM系统
 
@@ -141,6 +147,15 @@
   - 开源：https://github.com/Robotics-BUT/Robotic-Template-Library
 - [ ] [2]Q. Zhou, T. Sattler, M. Pollefeys, and L. Leal-Taixé, “**To Learn or Not to Learn: Visual Localization from Essential Matrices,**” in *2020 IEEE International Conference on Robotics and Automation (ICRA)*, May 2020, pp. 3319–3326. doi: [10/gh9smf](https://doi.org/10/gh9smf).
   - 视觉定位，基于学习或者基于传统方法的比较，提出了新的方法
+- [ ] J. Li and G. H. Lee, “**[DeepI2P: Image-to-Point Cloud Registration via Deep Classification](http://arxiv.org/abs/2104.03501)**,” arXiv:2104.03501 [cs], Apr. 2021, Accessed: Jul. 29, 2021.CVPR
+  - 点云和图像的配准
+- [ ] M. Geppert, V. Larsson, P. Speciale, J. L. Schonberger, and M. Pollefeys, “[**Privacy Preserving Localization and Mapping From Uncalibrated Cameras**](https://openaccess.thecvf.com/content/CVPR2021/papers/Geppert_Privacy_Preserving_Localization_and_Mapping_From_Uncalibrated_Cameras_CVPR_2021_paper.pdf),” p. 11.
+  - ETH做的关于云端SLAM的隐私保护问题，出现了隐私保护的文章，主要针对需要云服务的一些SLAM应用，目前已经做了几篇文章
+  - 还未开源，目前这部分还不知道能做啥，
+- [ ] P. Karkus, S. Cai, and D. Hsu, “**Differentiable SLAM-net: Learning Particle SLAM for Visual Navigation,**” arXiv:2105.07593 [cs, stat], May 2021, Accessed: Jul. 29, 2021. [Online]. Available: http://arxiv.org/abs/2105.07593，CVPR
+- [ ] S. H. Lee and J. Civera, “**Rotation-Only Bundle Adjustment,**” arXiv:2011.11724 [cs], Mar. 2021, Accessed: Jul. 29, 2021. [Online]. Available: http://arxiv.org/abs/2011.11724
+  - MATLAB的代码
+  - 对旋转的BA
 
 ## 2021年5月论文更新
 
