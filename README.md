@@ -52,7 +52,7 @@
   - CVPR上的单目重建框架，能去除动态物体
   - 开源
 - [x] [4]J. Luiten, T. Fischer, and B. Leibe, “**[Track to Reconstruct and Reconstruct to Track,](https://doi.org/10.1109/LRA.2020.2969183)**” *IEEE Robot. Autom. Lett.*, vol. 5, no. 2, pp. 1803–1810, Apr. 2020, doi: [10.1109/LRA.2020.2969183](https://doi.org/10.1109/LRA.2020.2969183).
-  - CVPR18的文章，重建中跟踪，跟踪重建。双目+光流+深度+mask
+  - RAL+ICRA2020的文章，重建中跟踪，跟踪重建。双目+光流+深度+mask
   - 开源
 - [ ] [5]B. Bescos, C. Campos, J. D. Tardós, and J. Neira, “**[DynaSLAM II: Tightly-Coupled Multi-Object Tracking and SLAM](https://doi.org/10.1109/LRA.2021.3068640)**,” *IEEE Robotics and Automation Letters*, vol. 6, no. 3, pp. 5191–5198, Jul. 2021, doi: [10.1109/LRA.2021.3068640](https://doi.org/10.1109/LRA.2021.3068640).
   - 大佬的又一篇很优秀的文章。不过暂时还没有开源
