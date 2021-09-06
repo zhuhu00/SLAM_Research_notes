@@ -469,6 +469,11 @@
     + ICRA 2020 [Dynamic SLAM: The Need For Speed](https://arxiv.org/abs/2002.08584)
 + **代码**：https://github.com/halajun/VDO_SLAM | [video](https://drive.google.com/file/d/1PbL4KiJ3sUhxyJSQPZmRP6mgi9dIC0iu/view)
 
+#### 8. DynaSLAM(去除动态物体)
+
+- 论文：B. Bescos, J. M. Fácil, J. Civera and J. Neira, "[**DynaSLAM: Tracking, Mapping, and Inpainting in Dynamic Scenes**](https://arxiv.org/abs/1806.05620)," in *IEEE Robotics and Automation Letters*, vol. 3, no. 4, pp. 4076-4083, Oct. **2018**.
+- 代码：https://github.com/BertaBescos/DynaSLAM
+
 ### :smile: 1.6 Mapping
 
 #### 1. InfiniTAM（跨平台 CPU 实时重建）
