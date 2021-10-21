@@ -10,7 +10,7 @@
 # 摘要
 
 ​		整理前期主要以**视觉SLAM**为主，包含论文，代码，相关讲解（如果有的话），大概整理几个月会把**激光SLAM**也加上
-​		目前收集的资料主要是一个大杂烩，研究的主要内容会从:tada:**动态SLAM，Robust SLAM**去跟进。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
+​		目前收集的资料主要是一个大杂烩，研究的主要内容会从:tada:**动态SLAM，Robust SLAM, Object SLAM**去跟进。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
 
 1. 开源经典框架：经典、应用广泛的**开源框架**
 2. 优秀的作者和实验室：前期为**大杂烩**，后面则为**主要关注的团队和个人**
@@ -42,7 +42,19 @@
 
 # 2. 论文更新
 
-除了更新最近的，还将更新之前的，具体是啥还得待定。。
+## 2021年10月论文更新
+
+- [ ] Gonzalez Mathieu, et al. “S3LAM: Structured Scene SLAM.” *ArXiv:2109.07339 [Cs]*, Sept. 2021. *arXiv.org*, http://arxiv.org/abs/2109.07339.
+  - 语义地图，新的BA形式。
+- [x] Yoon Sungho and Kim Ayoung. “**[Line as a Visual Sentence: Context-Aware Line Descriptor for Visual Localization.](http://arxiv.org/abs/2109.04753)**” RAl 2021
+  - [code](https://github.com/yosungho/LineTR)，[video](https://youtu.be/Ej4onCkA9pc)，NIP的思想用到线特征上。Ayoung kim。
+
+## 2021年9月论文更新
+
+- [ ] Gallagher Louis, et al. “**[A Hybrid Sparse-Dense Monocular SLAM System for Autonomous Driving](http://arxiv.org/abs/2108.07736)**.” .ECMR'21
+  - [code](https://github.com/robotvisionmu/DenseMonoSLAM), [video](https://youtu.be/Pn2uaVqjskY).
+
+
 
 ## 2021年8月论文更新
 
@@ -96,8 +108,6 @@
 ## 2021年7月论文更新
 
 > 本月主要关注动态SLAM及SLAM+MOT的内容。
-
-### 动态SLAM系统
 
 - [x] [1]S. Chen, C.-W. Chang, and C.-Y. Wen, “Perception in the Dark; Development of a ToF Visual Inertial Odometry System,” *Sensors*, vol. 20, no. 5, p. 1263, Feb. 2020, doi: [10.3390/s20051263](https://doi.org/10.3390/s20051263).
   - 还是之前那篇，TOF-VIO
