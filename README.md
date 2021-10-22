@@ -53,6 +53,9 @@
 
 - [ ] Gallagher Louis, et al. “**[A Hybrid Sparse-Dense Monocular SLAM System for Autonomous Driving](http://arxiv.org/abs/2108.07736)**.” .ECMR'21
   - [code](https://github.com/robotvisionmu/DenseMonoSLAM), [video](https://youtu.be/Pn2uaVqjskY).
+- [ ] Ferrera Maxime, et al. “[**OV$^{2}$SLAM: A Fully Online and Versatile Visual SLAM for Real-Time Applications**](https://arxiv.org/pdf/2102.04060.pdf).” RAL 2021
+  - [code](https://github.com/ov2slam/ov2slam).
+- [ ] 
 
 
 
