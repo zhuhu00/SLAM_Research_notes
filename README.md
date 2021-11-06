@@ -42,12 +42,31 @@
 
 # 2. 论文更新
 
+## 2021年11月论文更新
+
+
+
 ## 2021年10月论文更新
 
-- [ ] Gonzalez Mathieu, et al. “S3LAM: Structured Scene SLAM.” *ArXiv:2109.07339 [Cs]*, Sept. 2021. *arXiv.org*, http://arxiv.org/abs/2109.07339.
+- [x] [1]Gonzalez Mathieu, et al. “S3LAM: Structured Scene SLAM.” *ArXiv:2109.07339 [Cs]*, Sept. 2021. *arXiv.org*, http://arxiv.org/abs/2109.07339.
   - 语义地图，新的BA形式。
-- [x] Yoon Sungho and Kim Ayoung. “**[Line as a Visual Sentence: Context-Aware Line Descriptor for Visual Localization.](http://arxiv.org/abs/2109.04753)**” RAl 2021
-  - [code](https://github.com/yosungho/LineTR)，[video](https://youtu.be/Ej4onCkA9pc)，NIP的思想用到线特征上。Ayoung kim。
+- [x] [2]Yoon Sungho and Kim Ayoung. “**[Line as a Visual Sentence: Context-Aware Line Descriptor for Visual Localization.](http://arxiv.org/abs/2109.04753)**” RAl 2021
+  - [code](https://github.com/yosungho/LineTR)，[video](https://youtu.be/Ej4onCkA9pc)，**NLP的思想用到线特征上**。Ayoung kim。
+- [ ] [3]N. Chebrolu, T. Läbe, O. Vysotska, J. Behley, and C. Stachniss, “[**Adaptive Robust Kernels for Non-Linear Least Squares Problems**](http://arxiv.org/abs/2004.14938),” RAL 2021
+  - 针对非线性最小二乘法的核函数进行的改进。在ICP和BA上进行了验证。目前代码应该是整合到Open3D中了:boom:,
+  - 波恩大学的组，[主页](https://www.ipb.uni-bonn.de/)。
+- [x] [4]Y. Liu, Y. Fu, F. Chen, B. Goossens, W. Tao, and H. Zhao, “**[Simultaneous Localization and Mapping Related Datasets: A Comprehensive Survey,](http://arxiv.org/abs/2102.04036)**”  [code](https://github.com/robot-pesg/SLAM_Datasets_Survey_JAS)，数据集
+- [x] [5]P. Ruhkamp, D. Gao, H. Chen, N. Navab, and B. Busam, “**[Attention meets Geometry: Geometry Guided Spatial-Temporal Attention for Consistent Self-Supervised Monocular Depth Estimation](http://arxiv.org/abs/2110.08192)**,” 3DV 2021
+  - 在3D空间中对几何约束进行推理。结合transformer框架，提出了空间注意力机制，通过矫正深度估计来对几何信息做更好的处理。**结合时间和空间的一致性。**
+  - TUM
+- [ ] [6]Margarita Grinvald, Federico Tombari, Roland Siegwart, and Juan Nieto, **TSDF++: A Multi-Object Formulation for Dynamic Object Tracking and Reconstruction**, in *2021 IEEE International Conference on Robotics and Automation (ICRA)*, 2021. [[Paper](https://arxiv.org/abs/2105.07468)] [[Video](https://youtu.be/dSJmoeVasI0)]
+  - [code](https://github.com/ethz-asl/tsdf-plusplus),ETH, 很好的工作:boom:
+- [x] [7]M. Shan, Q. Feng, and N. Atanasov, “[**OrcVIO: Object residual constrained Visual-Inertial Odometry,**](https://doi.org/10.1109/IROS45743.2020.9341660)” (IROS 2020)
+  - 有两个版本，[21年IROS](http://arxiv.org/abs/2007.15107)也有一篇。
+  - [code](https://github.com/shanmo/OrcVIO), [video](http://moshan.cf/orcvio_githubpage/), [Project page](http://moshan.cf/orcvio_githubpage/).
+- [ ] [8]K. Minoda, F. Schilling, V. Wüest, D. Floreano, and T. Yairi, “**[VIODE: A Simulated Dataset to Address the Challenges of Visual-Inertial Odometry in Dynamic Environments,](https://doi.org/10.1109/LRA.2021.3058073)**”RAL 2021
+  - 动态环境的数据集，包括了静态，动态等级的场景，感觉适合用来作为验证。
+  - 东京大学，[code](https://github.com/kminoda/VIODE)
 
 ## 2021年9月论文更新
 
@@ -78,7 +97,7 @@
 - [x] [6]T. Ran, L. Yuan, J. Zhang, D. Tang, and L. He, “**[RS-SLAM: A Robust Semantic SLAM in Dynamic Environments Based on RGB-D Sensor,](https://doi.org/10.1109/JSEN.2021.3099511)**” *IEEE Sensors Journal*, pp. 1–1, 2021, doi: [10.1109/JSEN.2021.3099511](https://doi.org/10.1109/JSEN.2021.3099511).
   - 先把图片分割后，再提取feature，进行tracking等的操作
 - [x] [7]Z. Xu, Z. Rong, and Y. Wu, “[**A survey: which features are required for dynamic visual simultaneous localization and mapping?,**](https://doi.org/10.1186/s42492-021-00086-w)” *Vis. Comput. Ind. Biomed. Art*, vol. 4, no. 1, p. 20, Dec. 2021, doi: [10.1186/s42492-021-00086-w](https://doi.org/10.1186/s42492-021-00086-w).
-  - 中科院的一个大佬写的综述。主要是动态点在SLAM中到底有没有效果
+  - 综述。主要是动态点在SLAM中到底有没有效果
 - [ ] [8]A. Kim, A. Ošep, and L. Leal-Taixé, “**[EagerMOT: 3D Multi-Object Tracking via Sensor Fusion](http://arxiv.org/abs/2104.14682)**,” *arXiv:2104.14682 [cs]*, Apr. 2021, Accessed: Aug. 03, 2021. [Online]. Available: http://arxiv.org/abs/2104.14682
   - 开源，也是追踪重建类文章
 - [x] [10]Y. Sun, M. Liu, and M. Q.-H. Meng, “Motion removal for reliable RGB-D SLAM in dynamic environments,” *Robotics and Autonomous Systems*, vol. 108, pp. 115–128, Oct. 2018, doi: [10.1016/j.robot.2018.07.002](https://doi.org/10.1016/j.robot.2018.07.002).
