@@ -24,9 +24,11 @@
 
 
 
->一些好的工作
+>一些练手的东西
 >
->目前没有，哈哈哈哈
+>1. ORB-SLAM2的稠密建图, 建八叉树的地图
+>2. 全景重建
+>3. 动态环境中的视觉SLAM
 
 # 目录
 
@@ -41,6 +43,12 @@
 见[SLAM-approachs](https://github.com/zhuhu00/SLAM_Research_dzh/tree/main/SLAM-approachs)
 
 # 2. 论文更新
+
+## 2022年2月论文更新
+
+1. [**Autonomous Vehicles: Open-Source Technologies, Considerations, and Development**](https://arxiv.org/pdf/2202.03148.pdf), 有关自动驾驶车辆的**开源框架,思考,及仿真环境**等的综述, 2022
+2. **[A Survey on Deep Learning for Localization and Mapping: Towards the Age of Spatial Machine Intelligence](https://arxiv.org/pdf/2006.12567v2.pdf)**,2020, [**website**](https://github.com/changhao-chen/deep-learning-localization-mapping) ,**深度学习在里程计, 定位, 建图, SLAM的综述**
+3. 
 
 ## 2021年11月论文更新
 
