@@ -4,7 +4,9 @@
 # SLAM_Research
 
 @Author:  zhuhu
+
 @E-mail:  huzhu00@gmail.com
+
 @Github:  [zhuhu00](https://github.com/zhuhu00)
 
 # 摘要
@@ -22,7 +24,9 @@
 
 :fireworks:最近启动一个大工程，以此Repository为基础，在明年4月份读完略读完1k篇论文，主要是对方法的学习，感觉自己看的东西还是太少了。方法论不足。精读10篇左右。
 
-
+> 日志：
+>
+> 20220621-更新5月整理的ICRA2022的论文，之后每月论文会尽快上传。
 
 >一些好的工作
 >
@@ -34,16 +38,19 @@
 2. 优秀作者及实验室
 3. 论文更新
 
-
-
 # 1. 经典代码框架及实验室
 
 见[SLAM-approachs](https://github.com/zhuhu00/SLAM_Research_dzh/tree/main/SLAM-approachs)
 
 # 2. 论文更新
 
-## 2021年11月论文更新
+## 2022年6月论文更新
 
+## 2022年5月论文更新
+
+本月主要关注动态SLAM的整理和语义地图的论文，以及ICRA2022论文集也出来了，快速刷了一遍，把相关的放到了**[ICRA2022.md](./ICRA2022.md)**文件里了。
+
+## 2021年11月论文更新
 
 
 ## 2021年10月论文更新
