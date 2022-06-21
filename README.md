@@ -28,9 +28,11 @@
 >
 > 20220621-更新5月整理的ICRA2022的论文，之后每月论文会尽快上传。
 
->一些好的工作
+>一些练手的东西
 >
->目前没有，哈哈哈哈
+>1. ORB-SLAM2的稠密建图, 建八叉树的地图
+>2. 全景重建
+>3. 动态环境中的视觉SLAM
 
 # 目录
 
@@ -47,6 +49,13 @@
 ## 2022年6月论文更新
 
 ## 2022年5月论文更新
+## 2022年2月论文更新
+
+1. [**Autonomous Vehicles: Open-Source Technologies, Considerations, and Development**](https://arxiv.org/pdf/2202.03148.pdf), 有关自动驾驶车辆的**开源框架,思考,及仿真环境**等的综述, 2022
+2. **[A Survey on Deep Learning for Localization and Mapping: Towards the Age of Spatial Machine Intelligence](https://arxiv.org/pdf/2006.12567v2.pdf)**,2020, [**website**](https://github.com/changhao-chen/deep-learning-localization-mapping) ,**深度学习在里程计, 定位, 建图, SLAM的综述**
+3. 
+
+## 2021年11月论文更新
 
 本月主要关注动态SLAM的整理和语义地图的论文，以及ICRA2022论文集也出来了，快速刷了一遍，把相关的放到了**[ICRA2022.md](./ICRA2022.md)**文件里了。
 
