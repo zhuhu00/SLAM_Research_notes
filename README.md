@@ -1,5 +1,5 @@
 首次更新于20210404，清明节的日子，开启这方面的学习跟踪，
-工作有来自于[Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)，[Visual_SLAM_Related_Research](https://github.com/wuxiaolang/Visual_SLAM_Related_Research)
+灵感来自于[Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)，[Visual_SLAM_Related_Research](https://github.com/wuxiaolang/Visual_SLAM_Related_Research)
 
 # SLAM_Research
 
@@ -11,8 +11,8 @@
 
 # 摘要
 
-​		整理前期主要以**视觉SLAM**为主，包含论文，代码，相关讲解（如果有的话），大概整理几个月会把**激光SLAM**也加上
-​		目前收集的资料主要是一个大杂烩，研究的主要内容会从:tada:**动态SLAM，Robust SLAM, Object SLAM**去跟进。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
+​		整理前期主要以**SLAM**为主，包含论文，代码，相关讲解（如果有的话），大概整理几个月会把**激光SLAM**也加上
+​		目前收集的资料主要是一个大杂烩，研究的主要内容会从:tada:**动态SLAM，Robust SLAM, Object SLAM， Life-long**去跟进。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
 
 1. 开源经典框架：经典、应用广泛的**开源框架**
 2. 优秀的作者和实验室：前期为**大杂烩**，后面则为**主要关注的团队和个人**
@@ -26,19 +26,24 @@
 
 > 日志：
 >
-> 20220621-更新5月整理的ICRA2022的论文，之后每月论文会尽快上传。
+> 20220621-更新5月整理的**[ICRA2022](./ICRA2022.md)**的论文，之后每月论文会尽快上传。
 
->一些练手的东西
+>**一些值得练手的东西**
 >
 >1. ORB-SLAM2的稠密建图, 建八叉树的地图
 >2. 全景重建
 >3. 动态环境中的视觉SLAM
+>3. 学习的方法提取特征点+描述子+ORB-SLAM
 
 # 目录
 
 1. 经典代码框架
 2. 优秀作者及实验室
 3. 论文更新
+
+# 0. 会议Paper List（SLAM）
+
+- [ICRA 2022 paper list](./ICRA2022.md);
 
 # 1. 经典代码框架及实验室
 
@@ -49,6 +54,315 @@
 ## 2022年6月论文更新
 
 ## 2022年5月论文更新
+
+- Z. Wang, W. Li, Y. Shen, and B. Cai, “**[4-D SLAM: An Efficient Dynamic Bayes Network-Based Approach for Dynamic Scene Understanding](https://doi.org/10.1109/ACCESS.2020.3042339)**,” *IEEE Access*
+  - 语义识别动态后，使用UKF之类的进行动态追踪，但是图的效果不好。
+
+- M. Zhao *et al.*, “[**A General Framework for Lifelong Localization and Mapping in Changing Environment**](http://arxiv.org/abs/2111.10946).”  IROS 2021
+  - 高仙机器人的**life-long** 定位的论文
+  - 多session的地图表示和一种**高效的在线地图更新策略**，子系统组成：局部激光雷达里程计（LLO）、全局激光雷达匹配（GLM）和位姿图优化（PGR），LLO的作用是构建一系列局部一致的子地图，GLM子系统负责计算传入扫描点云和全局子地图之间的相对约束，并将子映地图和约束插入PGR，PGR是系统中最重要的部分，它从LLO和GLM收集子地图和约束关系，修剪并保存在历史地图中的旧的子地图，并执行姿势图稀疏化和优化。
+
+- D. Menini, S. Kumar, M. R. Oswald, E. Sandstrom, C. Sminchisescu, and L. Van Gool, “[**A Real-Time Online Learning Framework for Joint 3D Reconstruction and Semantic Segmentation of Indoor Scenes**](http://arxiv.org/abs/2108.05246),” RAL&ICRA 2022
+  - **[code](https://github.com/suryanshkumar/online-joint-depthfusion-and-semantic)**，**[project page](https://suryanshkumar.github.io/online-joint-depthfusion-and-semantic_project_page/)**，
+  - 室内的语义重建：在给定噪声深度图、摄像机轨迹和训练时的2D语义标签的情况下，提出的基于深度神经网络的方法学习将帧上的深度与场景空间中合适的语义标签进行融合
+
+- Y. Liu, J. Liu, Y. Hao, B. Deng, and Z. Meng, “**[A Switching-Coupled Backend for Simultaneous Localization and Dynamic Object Tracking](https://ieeexplore.ieee.org/document/9343683)**,” RAL 2021
+  - 视觉SLAM上的追踪，当检测结果不好时，提出了对应的处理办法来实现追踪和定位的效果，论文将追踪分为了两个部分，紧耦合和松耦合，紧耦合就是把动态对象加入到SLAM中，而松耦合则是只使用静态背景进行建图和定位。
+  - 清华-孟子阳老师
+
+- M. Frosi and M. Matteucci, “[**ART-SLAM: Accurate Real-Time 6DoF LiDAR SLAM**](https://arxiv.org/abs/2109.05483v1),” RAL&ICRA 2022
+  - **[code](https://github.com/MatteoF94)**， 一个快速的激光SLAM系统，受HDL的启发
+
+- D. Henning, T. Laidlow, and S. Leutenegger, “[**BodySLAM: Joint Camera Localisation, Mapping, and Human Motion Tracking**](https://arxiv.org/pdf/2205.02301v1.pdf),” *arXiv:2205.02301
+  - 人体构建和SLAM相结合，与AirDOS有点类似
+
+- J. Li, X. Zhang, J. Li, Y. Liu, and J. Wang, “Building and optimization of 3D semantic map based on Lidar and camera fusion,” *Neurocomputing*, vol. 409, pp. 394–407, Oct. 2020, doi: [10.1016/j.neucom.2020.06.004](https://doi.org/10.1016/j.neucom.2020.06.004).
+  - 视觉语义信息融合到雷达中，生成语义地图
+
+- P. Ji, Y. Tian, Q. Yan, Y. Ma, and Y. Xu, “CNN-Augmented Visual-Inertial SLAM with Planar Constraints,” *arXiv:2205.02940 [cs]*, May 2022, Accessed: May 10, 2022. [Online]. Available: http://arxiv.org/abs/2205.02940
+  - 提出了一种结合了卷积神经网络(CNN)和平面约束优点的鲁棒视觉惯性SLAM系统
+
+- R. Marcuzzi, L. Nunes, L. Wiesmann, I. Vizzo, J. Behley, and C. Stachniss, “**[Contrastive Instance Association for 4D Panoptic Segmentation Using Sequences of 3D LiDAR Scans,](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/marcuzzi2022ral.pdf)**” RAL-ICRA'22
+  - 雷达点云的全景分割，波恩大学Cyrill Stachniss组
+  - [**code**](https://github.com/PRBonn/contrastive_association)，
+
+- P. Dellenbach, J.-E. Deschaud, B. Jacquet, and F. Goulette, “**[CT-ICP: Real-time Elastic LiDAR Odometry with Loop Closure](https://arxiv.org/abs/2109.12979v2)**.” arXiv
+  - KITTI榜单第六名，[code](https://github.com/jedeschaud/ct_icp)，
+- Z. Wang, L. Zhang, Y. Shen and Y. Zhou, "**D-LIOM: Tightly-coupled Direct LiDAR-Inertial Odometry and Mapping**," in IEEE Transactions on Multimedia, doi: 10.1109/TMM.2022.3168423.
+  - [**code**](https://github.com/peterWon/D-LIOM)，一种紧耦合的直接激光雷达-惯性SLAM框架
+
+- K. Chen, R. Nemiroff, and B. T. Lopez, “[**Direct LiDAR-Inertial Odometry**](https://arxiv.org/abs/2203.03749v2),” *arXiv:2203.03749
+  - 第一是基于关键帧的快速LiDAR扫描匹配，它通过将密集的点云配准到具有由非线性运动模型生成的平移和旋转先验的局部子图来构建内部地图。第二种是因子图和高速传播算子，它将扫描匹配器的输出与预先集成的IMU测量融合在一起，以获得最新的姿态、速度和偏差估计
+
+- Y. Huang, T. Shan, F. Chen, and B. Englot, “**DiSCo-SLAM: Distributed Scan Context-Enabled Multi-Robot LiDAR SLAM With Two-Stage Global-Local Graph Optimization,**” RAL 2022
+  - **[code](https://github.com/RobustFieldAutonomyLab/DiSCo-SLAM)**，Tixiao Shan，一作有几个好的代码，也可以看看，都是基于LIO-系列的
+
+- F. Langer, A. Milioto, A. Haag, J. Behley, and C. Stachniss, “**[Domain Transfer for Semantic Segmentation of LiDAR Data using Deep Neural Networks](http://ras.papercept.net/images/temp/IROS/files/0060.pdf)**,” IROS 2020
+  - 分割网络在不同的传感器上的迁移，如32线到64线
+  - 波恩大学RPB组，**[code](https://github.com/PRBonn/lidar_transfer)**
+
+- W. Wang, J. Liu, C. Wang, B. Luo, and C. Zhang, “DV-LOAM: Direct Visual LiDAR Odometry and Mapping,” *Remote Sensing*, vol. 13, no. 16, p. 3340, Aug. 2021, doi: [10.3390/rs13163340](https://doi.org/10.3390/rs13163340).
+  - [code](https://github.com/kinggreat24/dv-loam)，武大
+
+- Y.-S. Shin, Y. S. Park, and A. Kim, “DVL-SLAM: sparse depth enhanced direct visual-LiDAR SLAM,” *Auton Robot*, vol. 44, no. 2, pp. 115–130, Jan. 2020, doi: [10.1007/s10514-019-09881-0](https://doi.org/10.1007/s10514-019-09881-0).
+  - [**code**](https://github.com/irapkaist/dvl_slam)，[**code2-ros**](https://github.com/xuankuzcr/DVL_SLAM_ROS)，
+  - 提出了一个基于直接法视觉SLAM的融合稀疏雷达深度的方法，基于滑窗的优化克服了稀疏雷达深度和异构传感器视角的缺陷，闭环约束
+- DynamicFilter: an Online Dynamic Objects Removal Framework for Highly Dynamic Environments，ICRA 2022
+  - IJRR大佬，可惜不开源。。
+  - 港大
+
+- X. Ma, Y. Wang, B. Zhang, H.-J. Ma, and C. Luo, “**[DynPL-SVO: A New Method Using Point and Line Features for Stereo Visual Odometry in Dynamic Scenes](https://arxiv.org/abs/2205.08207v1)**.” arXiv, May 17, 2022
+  - 使用点和线特征的双目视觉里程计，动态去除的论文
+  - 东北大学，也还没有开源
+
+- M. T. Lázaro, R. Capobianco, and G. Grisetti, “**[Efficient Long-term Mapping in Dynamic Environments](https://www.researchgate.net/profile/Maria-Lazaro-12/publication/330586668_Efficient_Long-term_Mapping_in_Dynamic_Environments/links/5f26efbe458515b729fe2f1b/Efficient-Long-term-Mapping-in-Dynamic-Environments.pdf)**,” IROS 2018
+  - 高效的ICP方案，并且实现了地图实体的合并。由于处理的是2D地图，因此也就没有那么多的需要处理的东西。可以直接用点可视化来去除运动的点云。
+  - **[code](https://gitlab.com/srrg-software/srrg_mapper2d_ros)**，
+
+- J. Behley and C. Stachniss, “**[Efficient Surfel-Based SLAM using 3D Laser Range Data in Urban Environments](http://www.roboticsproceedings.org/rss14/p16.pdf)**,” RSS 2018
+  - SuMa的论文，面元的SLAM，基于点到面的icp获得位姿更新
+  - [**code**](https://github.com/PRBonn/SuMa)
+
+- T. Krajník, J. P. Fentanes, J. M. Santos, and T. Duckett, “**[FreMEn: Frequency Map Enhancement for Long-Term Mobile Robot Autonomy in Changing Environments](http://strands.acin.tuwien.ac.at/publications/y4/krajnik_TRO.pdf)**,” TRO 2017
+  - 
+
+
+
+[21]
+
+G. Kurz, M. Holoch, and P. Biber, “Geometry-based Graph Pruning for Lifelong SLAM.” arXiv, Oct. 04, 2021. Accessed: May 23, 2022. [Online]. Available: http://arxiv.org/abs/2110.01286
+
+
+
+[22]
+
+X. Liu *et al.*, “Large-scale Autonomous Flight with Real-time Semantic SLAM under Dense Forest Canopy,” *IEEE Robot. Autom. Lett.*, vol. 7, no. 2, pp. 5512–5519, Apr. 2022, doi: [10.1109/LRA.2022.3154047](https://doi.org/10.1109/LRA.2022.3154047).
+
+
+
+[23]
+
+W. Ding, S. Hou, H. Gao, G. Wan, and S. Song, “LiDAR Inertial Odometry Aided Robust LiDAR Localization System in Changing City Scenes,” in *2020 IEEE International Conference on Robotics and Automation (ICRA)*, Paris, France, May 2020, pp. 4322–4328. doi: [10.1109/ICRA40945.2020.9196698](https://doi.org/10.1109/ICRA40945.2020.9196698).
+
+
+
+[24]
+
+A. Milioto, J. Behley, C. McCool, and C. Stachniss, “LiDAR Panoptic Segmentation for Autonomous Driving,” in *2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2020, pp. 8505–8512. doi: [10.1109/IROS45743.2020.9340837](https://doi.org/10.1109/IROS45743.2020.9340837).
+
+
+
+[25]
+
+G. D. Tipaldi, D. Meyer-Delius, and W. Burgard, “Lifelong localization in changing environments,” *The International Journal of Robotics Research*, vol. 32, no. 14, pp. 1662–1678, Dec. 2013, doi: [10.1177/0278364913502830](https://doi.org/10.1177/0278364913502830).
+
+
+
+[26]
+
+S. Zhu, X. Zhang, S. Guo, J. Li, and H. Liu, “Lifelong Localization in Semi-Dynamic Environment,” in *2021 IEEE International Conference on Robotics and Automation (ICRA)*, 2021, pp. 14389–14395. doi: [10.1109/ICRA48506.2021.9561584](https://doi.org/10.1109/ICRA48506.2021.9561584).
+
+
+
+[27]
+
+C. Qu, S. S. Shivakumar, W. Liu, and C. J. Taylor, “LLOL: Low-Latency Odometry for Spinning Lidars.” arXiv, Apr. 13, 2022. Accessed: May 20, 2022. [Online]. Available: http://arxiv.org/abs/2110.01725
+
+
+
+[28]
+
+A. Reinke *et al.*, “LOCUS 2.0: Robust and Computationally Efficient Lidar Odometry for Real-Time Underground 3D Mapping.” arXiv, May 24, 2022. Accessed: May 25, 2022. [Online]. Available: http://arxiv.org/abs/2205.11784
+
+
+
+[29]
+
+F. Pomerleau, P. Krüsi, F. Colas, P. Furgale, and R. Siegwart, “Long-term 3D map maintenance in dynamic environments,” in *2014 IEEE International Conference on Robotics and Automation (ICRA)*, 2014, pp. 3712–3719. doi: [10.1109/ICRA.2014.6907397](https://doi.org/10.1109/ICRA.2014.6907397).
+
+
+
+[30]
+
+D. J. Yoon, T. Y. Tang, and T. D. Barfoot, “Mapless Online Detection of Dynamic Objects in 3D Lidar.” arXiv, Sep. 18, 2018. Accessed: May 17, 2022. [Online]. Available: http://arxiv.org/abs/1809.06972
+
+
+
+[31]
+
+P. De Petris *et al.*, “Marsupial Walking-and-Flying Robotic Deployment for Collaborative Exploration of Unknown Environments,” *arXiv:2205.05477 [cs]*, May 2022, Accessed: May 13, 2022. [Online]. Available: http://arxiv.org/abs/2205.05477
+
+
+
+[32]
+
+L. Di Giammarino, L. Brizi, T. Guadagnino, C. Stachniss, and G. Grisetti, “MD-SLAM: Multi-cue Direct SLAM,” *arXiv:2203.13237 [cs]*, Mar. 2022, Accessed: May 13, 2022. [Online]. Available: http://arxiv.org/abs/2203.13237
+
+
+
+[33]
+
+T. Ma and Y. Ou, “MLO: Multi-Object Tracking and Lidar Odometry in Dynamic Environment.” arXiv, Apr. 29, 2022. Accessed: May 22, 2022. [Online]. Available: http://arxiv.org/abs/2204.11621
+
+
+
+[34]
+
+Chen Xieyuanli *et al.*, “Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data,” *IEEE Robot. Autom. Lett.*, pp. 1–1, 2021, doi: [10.1109/LRA.2021.3093567](https://doi.org/10.1109/LRA.2021.3093567).
+
+
+
+[35]
+
+S. Li, X. Chen, Y. Liu, D. Dai, C. Stachniss, and J. Gall, “Multi-Scale Interaction for Real-Time LiDAR Data Segmentation on an Embedded Platform,” *IEEE Robotics and Automation Letters*, vol. 7, no. 2, pp. 738–745, Apr. 2022, doi: [10.1109/LRA.2021.3132059](https://doi.org/10.1109/LRA.2021.3132059).
+
+
+
+[36]
+
+A. Hornung, K. M. Wurm, M. Bennewitz, C. Stachniss, and W. Burgard, “OctoMap: an efficient probabilistic 3D mapping framework based on octrees,” *Auton Robot*, vol. 34, no. 3, pp. 189–206, Apr. 2013, doi: [10.1007/s10514-012-9321-0](https://doi.org/10.1007/s10514-012-9321-0).
+
+
+
+[37]
+
+I. Vizzo, X. Chen, N. Chebrolu, J. Behley, and C. Stachniss, “Poisson Surface Reconstruction for LiDAR Odometry and Mapping,” in *2021 IEEE International Conference on Robotics and Automation (ICRA)*, Xi’an, China, May 2021, pp. 5624–5630. doi: [10.1109/ICRA48506.2021.9562069](https://doi.org/10.1109/ICRA48506.2021.9562069).
+
+
+
+[38]
+
+P. Egger, P. V. K. Borges, G. Catt, A. Pfrunder, R. Siegwart, and R. Dubé, “PoseMap: Lifelong, Multi-Environment 3D LiDAR Localization,” in *2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2018, pp. 3430–3437. doi: [10.1109/IROS.2018.8593854](https://doi.org/10.1109/IROS.2018.8593854).
+
+
+
+[39]
+
+D. Paz, H. Zhang, Q. Li, H. Xiang, and H. Christensen, “Probabilistic Semantic Mapping for Urban Autonomous Driving Applications,” *arXiv:2006.04894 [cs]*, Sep. 2020, Accessed: May 13, 2022. [Online]. Available: http://arxiv.org/abs/2006.04894
+
+
+
+[40]
+
+G. Chen, B. Wang, X. Wang, H. Deng, B. Wang, and S. Zhang, “PSF-LO: Parameterized Semantic Features Based Lidar Odometry,” *arXiv:2010.13355 [cs]*, Mar. 2021, Accessed: May 10, 2022. [Online]. Available: http://arxiv.org/abs/2010.13355
+
+
+
+[41]
+
+A. Milioto, I. Vizzo, J. Behley, and C. Stachniss, “RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation,” in *2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2019, pp. 4213–4220. doi: [10.1109/IROS40897.2019.8967762](https://doi.org/10.1109/IROS40897.2019.8967762).
+
+
+
+[42]
+
+Z. Li, L. Li, Z. Ma, P. Zhang, J. Chen, and J. Zhu, “READ: Large-Scale Neural Scene Rendering for Autonomous Driving,” *arXiv:2205.05509 [cs]*, May 2022, Accessed: May 13, 2022. [Online]. Available: http://arxiv.org/abs/2205.05509
+
+
+
+[43]
+
+X. Tu *et al.*, “Reconstruction of High-Precision Semantic Map,” *Sensors (Basel)*, vol. 20, no. 21, p. 6264, Nov. 2020, doi: [10.3390/s20216264](https://doi.org/10.3390/s20216264).
+
+
+
+[44]
+
+L. Sun, Z. Yan, A. Zaganidis, C. Zhao, and T. Duckett, “Recurrent-OctoMap: Learning State-Based Map Refinement for Long-Term Semantic Mapping With 3-D-Lidar Data,” *IEEE Robotics and Automation Letters*, vol. 3, no. 4, pp. 3749–3756, 2018, doi: [10.1109/LRA.2018.2856268](https://doi.org/10.1109/LRA.2018.2856268).
+
+
+
+[45]
+
+“RF-LIO: Removal-First Tightly-coupled Lidar Inertial Odometry in High Dynamic Environments,” in *2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Prague, Czech Republic, Sep. 2021, pp. 4421–4428. doi: [10.1109/IROS51168.2021.9636624](https://doi.org/10.1109/IROS51168.2021.9636624).
+
+
+
+[46]
+
+S. Pagad, D. Agarwal, S. Narayanan, K. Rangan, H. Kim, and G. Yalla, “Robust Method for Removing Dynamic Objects from Point Clouds,” in *2020 IEEE International Conference on Robotics and Automation (ICRA)*, 2020, pp. 10765–10771. doi: [10.1109/ICRA40945.2020.9197168](https://doi.org/10.1109/ICRA40945.2020.9197168).
+
+
+
+[47]
+
+M. Jaimez, J. Monroy, M. Lopez-Antequera, and J. Gonzalez-Jimenez, “Robust Planar Odometry Based on Symmetric Range Flow and Multiscan Alignment,” *IEEE Transactions on Robotics*, vol. 34, no. 6, pp. 1623–1635, 2018, doi: [10.1109/TRO.2018.2861911](https://doi.org/10.1109/TRO.2018.2861911).
+
+
+
+[48]
+
+L. Li *et al.*, “SA-LOAM: Semantic-aided LiDAR SLAM with Loop Closure.” arXiv, Jul. 01, 2021. Accessed: May 16, 2022. [Online]. Available: http://arxiv.org/abs/2106.11516
+
+
+
+[49]
+
+O. Unal, D. Dai, and L. Van Gool, “Scribble-Supervised LiDAR Semantic Segmentation,” *arXiv:2203.08537 [cs]*, Mar. 2022, Accessed: May 13, 2022. [Online]. Available: http://arxiv.org/abs/2203.08537
+
+
+
+[50]
+
+R. Dubé *et al.*, “SegMap: Segment-based mapping and localization using data-driven descriptors,” *The International Journal of Robotics Research*, vol. 39, no. 2–3, pp. 339–355, Mar. 2020, doi: [10.1177/0278364919863090](https://doi.org/10.1177/0278364919863090).
+
+
+
+[51]
+
+J. L. Schonberger, M. Pollefeys, A. Geiger, and T. Sattler, “Semantic Visual Localization,” in *2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition*, Salt Lake City, UT, Jun. 2018, pp. 6896–6906. doi: [10.1109/CVPR.2018.00721](https://doi.org/10.1109/CVPR.2018.00721).
+
+
+
+[52]
+
+Y. Pan, B. Gao, J. Mei, S. Geng, C. Li, and H. Zhao, “SemanticPOSS: A Point Cloud Dataset with Large Quantity of Dynamic Instances,” in *2020 IEEE Intelligent Vehicles Symposium (IV)*, 2020, pp. 687–693. doi: [10.1109/IV47402.2020.9304596](https://doi.org/10.1109/IV47402.2020.9304596).
+
+
+
+[53]
+
+S. Gu, S. Yao, J. Yang, and H. Kong, “Semantics-Guided Moving Object Segmentation with 3D LiDAR,” *arXiv:2205.03186 [cs]*, May 2022, Accessed: May 10, 2022. [Online]. Available: http://arxiv.org/abs/2205.03186
+
+
+
+[54]
+
+M. Schorghuber, D. Steininger, Y. Cabon, M. Humenberger, and M. Gelautz, “SLAMANTIC - Leveraging Semantics to Improve VSLAM in Dynamic Environments,” in *2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)*, Seoul, Korea (South), Oct. 2019, pp. 3759–3768. doi: [10.1109/ICCVW.2019.00468](https://doi.org/10.1109/ICCVW.2019.00468).
+
+
+
+[55]
+
+S. W. Chen *et al.*, “SLOAM: Semantic Lidar Odometry and Mapping for Forest Inventory.” arXiv, Dec. 29, 2019. Accessed: May 16, 2022. [Online]. Available: http://arxiv.org/abs/1912.12726
+
+
+
+[56]
+
+N. Rufus, U. K. R. Nair, A. V. S. S. B. Kumar, V. Madiraju, and K. M. Krishna, “SROM: Simple Real-time Odometry and Mapping using LiDAR data for Autonomous Vehicles.” arXiv, May 07, 2020. Accessed: May 18, 2022. [Online]. Available: http://arxiv.org/abs/2005.02042
+
+
+
+[57]
+
+Y. Kim, J. Jeong, and A. Kim, “Stereo Camera Localization in 3D LiDAR Maps,” in *2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2018, pp. 1–9. doi: [10.1109/IROS.2018.8594362](https://doi.org/10.1109/IROS.2018.8594362).
+
+
+
+- X. Chen, A. Milioto, E. Palazzolo, P. Giguère, J. Behley, and C. Stachniss, “**SuMa++: Efficient LiDAR-based Semantic SLAM**,” *2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, pp. 4530–4537, Nov. 2019, doi: [10.1109/IROS40897.2019.8967704](https://doi.org/10.1109/IROS40897.2019.8967704).
+  - 经典的semantic slam，也有对运动对象的去除方案。
+  - [**code**](https://github.com/PRBonn/semantic_suma)，video
+
+- J. Schauer and A. Nuchter, “**The Peopleremover—Removing Dynamic Objects From 3-D Point Cloud Data by Traversing a Voxel Occupancy Grid**,” *IEEE Robot. Autom. Lett.*, vol. 3, no. 3, pp. 1679–1686, Jul. 2018, doi: [10.1109/LRA.2018.2801797](https://doi.org/10.1109/LRA.2018.2801797).
+  - 基于体素遍历的方法的运动对象去除，虽然这种方法有很多的缺点，但是论文提出了很多的trick，来解决这些问题，看起来效果还是不错的。
+  - code，video
+
+- Y. B. Can, A. Liniger, O. Unal, D. Paudel, and L. Van Gool, “**[Understanding Bird’s-Eye View of Road Semantics using an Onboard Camera](http://arxiv.org/abs/2012.03040)**,”  ICRA 2022
+  - 前视转BEV的研究，**[code](https://github.com/ybarancan/BEV_feat_stitch)**，video
+
+
+
 ## 2022年2月论文更新
 
 1. [**Autonomous Vehicles: Open-Source Technologies, Considerations, and Development**](https://arxiv.org/pdf/2202.03148.pdf), 有关自动驾驶车辆的**开源框架,思考,及仿真环境**等的综述, 2022
