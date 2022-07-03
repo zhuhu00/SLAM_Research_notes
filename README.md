@@ -13,7 +13,7 @@
 # 摘要
 
 ​		整理前期主要以**SLAM**为主，包含论文，代码，相关讲解（如果有的话，一般在**泡泡机器人slam**公众号会发布），大概整理几个月会把**激光SLAM**也加上
-​		目前收集的资料主要是一个大杂烩，研究的主要内容会从:tada:**动态SLAM，Robust SLAM, Object SLAM， Life-long**去跟进。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
+​		目前收集的资料主要是一个大杂烩，研究的主要内容会从:tada:**动态SLAM，Robust SLAM， Life-long，多传感器融合**去跟进。将会从经典的框架开始，之后如果有时间的话，也会在这个仓库中添加文件夹写相关的基础。不一定能涵盖所有，请合理参考。
 
 1. 开源经典框架：经典、应用广泛的**开源框架**
 2. 优秀的作者和实验室：前期为**大杂烩**，后面则为**主要关注的团队和个人**
@@ -213,7 +213,7 @@
 - S. Gu, S. Yao, J. Yang, and H. Kong, “**[Semantics-Guided Moving Object Segmentation with 3D LiDAR]( http://arxiv.org/abs/2205.03186)**,”  arxiv 2022.05
   - 动态物体的分割网络，也是rangenet的思想那套。
 
-- M. Schorghuber, D. Steininger, Y. Cabon, M. Humenberger, and M. Gelautz, “**[SLAMANTIC - Leveraging Semantics to Improve VSLAM in Dynamic Environments,]()**” ICCV 2019 workshop
+- M. Schorghuber, D. Steininger, Y. Cabon, M. Humenberger, and M. Gelautz, “**[SLAMANTIC - Leveraging Semantics to Improve VSLAM in Dynamic Environments,](https://openaccess.thecvf.com/content_ICCVW_2019/papers/DL4VSLAM/Schorghuber_SLAMANTIC_-_Leveraging_Semantics_to_Improve_VSLAM_in_Dynamic_Environments_ICCVW_2019_paper.pdf)**” ICCV 2019 workshop
   - 视觉SLAM，动态环境。通过语义对点的置信度进行计算，高置信度的点来辅助低置信度的点，最终确定用于定位和建图的部分。
 
 - S. W. Chen *et al.*, “[**SLOAM: Semantic Lidar Odometry and Mapping for Forest Inventory.**](http://arxiv.org/abs/1912.12726)” RAL 2019
