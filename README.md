@@ -43,8 +43,9 @@
 
 # 0. 会议Paper List（SLAM）
 
-- [**ICRA 2022 SLAM paper list**](./ICRA2022.md);
-- CVPR 2022 paper list；
+- [**ICRA 2022 SLAM paper list**](./ICRA2022.md); 已完成
+- CVPR 2022 SLAM paper list；
+- [RSS 2022 SLAM Paper List](./RSS2022.md)；
 
 # 1. 经典代码框架及实验室
 
