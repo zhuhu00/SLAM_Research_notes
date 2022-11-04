@@ -47,7 +47,229 @@
 
 # 2. 论文更新
 
+## 2022年10月论文更新
+TBA
+
+## 2022年9月论文更新
+
+[1] S. Looper, J. Rodriguez-Puigvert, R. Siegwart, C. Cadena, and L. Schmid, “3D VSG: Long-term Semantic Scene Change Prediction through 3D Variable Scene Graphs.” arXiv, Sep. 16, 2022. Accessed: Oct. 24, 2022. [Online]. Available: http://arxiv.org/abs/2209.07896
+
+[2] S. Kulkarni, P. Yin, and S. Scherer, “360FusionNeRF: Panoramic Neural Radiance Fields with Joint Guidance.” arXiv, Sep. 28, 2022. Accessed: Sep. 29, 2022. [Online]. Available: http://arxiv.org/abs/2209.14265
+
+[3] G. Yan, J. Pi, C. Wang, X. Cai, and Y. Li, “An Extrinsic Calibration Method of a 3D-LiDAR and a Pose Sensor for Autonomous Driving.” arXiv, Sep. 15, 2022. Accessed: Sep. 19, 2022. [Online]. Available: http://arxiv.org/abs/2209.07694
+
+[4] S. Yang, Z. Zhang, Z. Fu, and Z. Manchester, “Cerberus: Low-Drift Visual-Inertial-Leg Odometry For Agile Locomotion.” arXiv, Sep. 15, 2022. Accessed: Sep. 19, 2022. [Online]. Available: http://arxiv.org/abs/2209.07654
+
+[5] Z. Liu, X. Liu, and F. Zhang, “Efficient and Consistent Bundle Adjustment on Lidar Point Clouds.” arXiv, Sep. 19, 2022. Accessed: Sep. 28, 2022. [Online]. Available: http://arxiv.org/abs/2209.08854
+
+[6] K. Mazur, E. Sucar, and A. J. Davison, “Feature-Realistic Neural Fusion for Real-Time, Open Set Scene Understanding.” arXiv, Oct. 06, 2022. Accessed: Oct. 07, 2022. [Online]. Available: http://arxiv.org/abs/2210.03043
+
+[7] Y. Ming, W. Ye, and A. Calway, “iDF-SLAM: End-to-End RGB-D SLAM with Neural Implicit Mapping and Deep Feature Tracking.” arXiv, Sep. 16, 2022. Accessed: Sep. 19, 2022. [Online]. Available: http://arxiv.org/abs/2209.07919
+
+[8] B. Yang, “Learning to Reconstruct and Segment 3D Objects.” arXiv, Oct. 19, 2020. Accessed: Sep. 05, 2022. [Online]. Available: http://arxiv.org/abs/2010.09582
+
+[9] J. Nubert, E. Walther, S. Khattak, and M. Hutter, “Learning-based Localizability Estimation for Robust LiDAR Localization.” arXiv, Aug. 01, 2022. Accessed: Sep. 08, 2022. [Online]. Available: http://arxiv.org/abs/2203.05698
+
+[10] H. Zhang, H. Uchiyama, S. Ono, and H. Kawasaki, “MOTSLAM: MOT-assisted monocular dynamic SLAM using single-view depth estimation.” arXiv, Oct. 05, 2022. Accessed: Oct. 06, 2022. [Online]. Available: http://arxiv.org/abs/2210.02038
+
+[11] K. Gao, Y. Gao, H. He, D. Lu, L. Xu, and J. Li, “NeRF: Neural Radiance Field in 3D Vision, A Comprehensive Review.” arXiv, Oct. 01, 2022. Accessed: Oct. 06, 2022. [Online]. Available: http://arxiv.org/abs/2210.00379
+
+[12] C.-M. Chung et al., “Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping.” arXiv, Sep. 27, 2022. Accessed: Sep. 28, 2022. [Online]. Available: http://arxiv.org/abs/2209.13274
+
+[13] X. Fu et al., “Panoptic NeRF: 3D-to-2D Label Transfer for Panoptic Urban Scene Segmentation.” arXiv, Mar. 29, 2022. Accessed: Sep. 24, 2022. [Online]. Available: http://arxiv.org/abs/2203.15224
+
+[14] A. Rosinol, J. J. Leonard, and L. Carlone, “Probabilistic Volumetric Fusion for Dense Monocular SLAM.” arXiv, Oct. 03, 2022. Accessed: Oct. 06, 2022. [Online]. Available: http://arxiv.org/abs/2210.01276
+
+[15] J. Lin and F. Zhang, “R$^3$LIVE++: A Robust, Real-time, Radiance reconstruction package with a tightly-coupled LiDAR-Inertial-Visual state Estimator.” arXiv, Sep. 08, 2022. doi: 10.48550/arXiv.2209.03666.
+
+[16] X. Zhong, Y. Pan, J. Behley, and C. Stachniss, “SHINE-Mapping: Large-Scale 3D Mapping Using Sparse Hierarchical Implicit Neural Representations.” arXiv, Oct. 05, 2022. Accessed: Oct. 06, 2022. [Online]. Available: http://arxiv.org/abs/2210.02299
+
+[17] M. Gonzalez, E. Marchand, A. Kacete, and J. Royan, “TwistSLAM++: Fusing multiple modalities for accurate dynamic semantic SLAM.” arXiv, Sep. 16, 2022. Accessed: Sep. 19, 2022. [Online]. Available: http://arxiv.org/abs/2209.07888
+
+[18] S. Borse et al., “X-Align: Cross-Modal Cross-View Alignment for Bird’s-Eye-View Segmentation.” arXiv, Oct. 13, 2022. Accessed: Oct. 15, 2022. [Online]. Available: http://arxiv.org/abs/2210.06778
+
+
+## 2022年8月论文更新
+
+[1] D. M. Rosen, K. J. Doherty, A. Terán Espinoza, and J. J. Leonard, “Advances in Inference and Representation for Simultaneous Localization and Mapping,” Annual Review of Control, Robotics, and Autonomous Systems, vol. 4, no. 1, pp. 215–242, 2021, doi: 10.1146/annurev-control-072720-082553.
+
+[2] B. Ferrarini, M. J. Milford, K. D. McDonald-Maier, and S. Ehsan, “Binary Neural Networks for Memory-Efficient and Effective Visual Place Recognition in Changing Environments,” IEEE Transactions on Robotics, vol. 38, no. 4, pp. 2617–2631, Aug. 2022, doi: 10.1109/TRO.2022.3148908.
+
+[3] P. Yin, A. Abuduweili, S. Zhao, C. Liu, and S. Scherer, “BioSLAM: A Bio-inspired Lifelong Memory System for General Place Recognition.” arXiv, Aug. 30, 2022. Accessed: Sep. 01, 2022. [Online]. Available: http://arxiv.org/abs/2208.14543
+
+[4] Y. Cui, Y. Zhang, X. Chen, J. Dong, Q. Wu, and F. Zhu, “BoW3D: Bag of Words for Real-time Loop Closing in 3D LiDAR SLAM.” arXiv, Aug. 15, 2022. Accessed: Aug. 22, 2022. [Online]. Available: http://arxiv.org/abs/2208.07473
+
+[5] Z. J. Yew and G. H. Lee, “City-scale Scene Change Detection using Point Clouds.” arXiv, Mar. 26, 2021. Accessed: Aug. 21, 2022. [Online]. Available: http://arxiv.org/abs/2103.14314
+
+[6] Z. Landgraf, F. Falck, M. Bloesch, S. Leutenegger, and A. Davison, “Comparing View-Based and Map-Based Semantic Labelling in Real-Time SLAM.” arXiv, Feb. 24, 2020. Accessed: Aug. 21, 2022. [Online]. Available: http://arxiv.org/abs/2002.10342
+
+[7] H. Ai, Z. Cao, J. Zhu, H. Bai, Y. Chen, and L. Wang, “Deep Learning for Omnidirectional Vision: A Survey and New Perspectives.” arXiv, May 24, 2022. Accessed: Aug. 28, 2022. [Online]. Available: http://arxiv.org/abs/2205.10468
+
+[8] Z. Teed, L. Lipson, and J. Deng, “Deep Patch Visual Odometry.” arXiv, Aug. 08, 2022. Accessed: Aug. 25, 2022. [Online]. Available: http://arxiv.org/abs/2208.04726
+
+[9] S. Song, H. Lim, A. J. Lee, and H. Myung, “DynaVINS: A Visual-Inertial SLAM for Dynamic Environments.” arXiv, Aug. 24, 2022. Accessed: Aug. 30, 2022. [Online]. Available: http://arxiv.org/abs/2208.11500
+
+[10] S. Mishra and S. Saripalli, “Extrinsic Calibration of LiDAR, IMU and Camera.” arXiv, May 17, 2022. Accessed: Aug. 28, 2022. [Online]. Available: http://arxiv.org/abs/2205.08701
+
+[11] F. Dellaert, “Factor Graphs: Exploiting Structure in Robotics,” Annual Review of Control, Robotics, and Autonomous Systems, vol. 4, no. 1, pp. 141–166, 2021, doi: 10.1146/annurev-control-061520-010504.
+
+[12] Y. Nakajima, K. Tateno, F. Tombari, and H. Saito, “Fast and Accurate Semantic Mapping through Geometric-based Incremental Segmentation.” arXiv, Mar. 07, 2018. Accessed: Aug. 25, 2022. [Online]. Available: http://arxiv.org/abs/1803.02784
+
+[13] M.-F. Chang, J. Mangelson, M. Kaess, and S. Lucey, “HyperMap: Compressed 3D Map for Monocular Camera Registration,” in 2021 IEEE International Conference on Robotics and Automation (ICRA), Xi’an, China, May 2021, pp. 11739–11745. doi: 10.1109/ICRA48506.2021.9561864.
+
+[14] D. Cattaneo, M. Vaghi, and A. Valada, “LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM,” IEEE Transactions on Robotics, vol. 38, no. 4, pp. 2074–2093, Aug. 2022, doi: 10.1109/TRO.2022.3150683.
+
+[15] B. Xu, A. J. Davison, and S. Leutenegger, “Learning to Complete Object Shapes for Object-level Mapping in Dynamic Scenes.” arXiv, Aug. 09, 2022. Accessed: Aug. 21, 2022. [Online]. Available: http://arxiv.org/abs/2208.05067
+
+[16] W. Zhen, Y. Hu, H. Yu, and S. Scherer, “LiDAR-enhanced Structure-from-Motion,” in 2020 IEEE International Conference on Robotics and Automation (ICRA), May 2020, pp. 6773–6779. doi: 10.1109/ICRA40945.2020.9197030.
+
+[17] J. Wilson et al., “MotionSC: Data Set and Network for Real-Time Semantic Mapping in Dynamic Environments,” IEEE Robotics and Automation Letters, vol. 7, no. 3, pp. 8439–8446, Jul. 2022, doi: 10.1109/LRA.2022.3188435.
+
+[18] H. Yoon, M. Jang, J. Huh, J. Kang, and S. Lee, “Multiple Sensor Synchronization with theRealSense RGB-D Camera,” Sensors, vol. 21, no. 18, Art. no. 18, Jan. 2021, doi: 10.3390/s21186276.
+
+[19] H. Lim, M. Oh, and H. Myung, “Patchwork: Concentric Zone-based Region-wise Ground Segmentation with Ground Likelihood Estimation Using a 3D LiDAR Sensor.” arXiv, Mar. 10, 2022. Accessed: Aug. 11, 2022. [Online]. Available: http://arxiv.org/abs/2108.05560
+
+[20] S. Lee, H. Lim, and H. Myung, “Patchwork++: Fast and Robust Ground Segmentation Solving Partial Under-Segmentation Using 3D Point Cloud.” arXiv, Jul. 25, 2022. Accessed: Aug. 11, 2022. [Online]. Available: http://arxiv.org/abs/2207.11919
+
+[21] Y. Kantaros, S. Kalluraya, Q. Jin, and G. J. Pappas, “Perception-Based Temporal Logic Planning in Uncertain Semantic Maps,” IEEE Transactions on Robotics, vol. 38, no. 4, pp. 2536–2556, Aug. 2022, doi: 10.1109/TRO.2022.3144073.
+
+[22] Y. Duan, J. Peng, Y. Zhang, J. Ji, and Y. Zhang, “PFilter: Building Persistent Maps through Feature Filtering for Fast and Accurate LiDAR-based SLAM.” arXiv, Aug. 31, 2022. Accessed: Sep. 01, 2022. [Online]. Available: http://arxiv.org/abs/2208.14848
+
+[23] Y. Wang et al., “Rail Vehicle Localization and Mapping with LiDAR-Vision-Inertial-GNSS Fusion.” arXiv, Dec. 15, 2021. Accessed: Aug. 05, 2022. [Online]. Available: http://arxiv.org/abs/2112.08563
+
+[24] A. Simoni, S. Pini, G. Borghi, and R. Vezzani, “Semi-Perspective Decoupled Heatmaps for 3D Robot Pose Estimation from Depth Maps.” arXiv, Jul. 06, 2022. Accessed: Aug. 05, 2022. [Online]. Available: http://arxiv.org/abs/2207.02519
+
+[25] H. Taheri and Z. C. Xia, “SLAM; definition and evolution,” Engineering Applications of Artificial Intelligence, vol. 97, p. 104032, Jan. 2021, doi: 10.1016/j.engappai.2020.104032.
+
+[26] Y. Ren, B. Xu, C. L. Choi, and S. Leutenegger, “Visual-Inertial Multi-Instance Dynamic SLAM with Object-level Relocalisation.” arXiv, Aug. 08, 2022. Accessed: Aug. 21, 2022. [Online]. Available: http://arxiv.org/abs/2208.04274
+
+
+## 2022年7月论文更新
+
+[1] Y. Tao, M. Popović, Y. Wang, S. T. Digumarti, N. Chebrolu, and M. Fallon, “3D Lidar Reconstruction with Probabilistic Depth Completion for Robotic Navigation.” arXiv, Jul. 25, 2022. doi: 10.48550/arXiv.2207.12520.
+
+[2] J. A. Placed et al., “A Survey on Active Simultaneous Localization and Mapping: State of the Art and New Frontiers.” arXiv, Jul. 01, 2022. Accessed: Jul. 04, 2022. [Online]. Available: http://arxiv.org/abs/2207.00254
+
+[3] Y. Furukawa and J. Ponce, “Accurate, Dense, and Robust Multiview Stereopsis,” IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 32, no. 8, pp. 1362–1376, Aug. 2010, doi: 10.1109/TPAMI.2009.161.
+
+[4] R. Giubilato, W. Stürzl, A. Wedler, and R. Triebel, “Challenges of SLAM in extremely unstructured environments: the DLR Planetary Stereo, Solid-State LiDAR, Inertial Dataset.” arXiv, Jul. 14, 2022. Accessed: Jul. 15, 2022. [Online]. Available: http://arxiv.org/abs/2207.06815
+
+[5] W. Ye et al., “DeFlowSLAM: Self-Supervised Scene Motion Decomposition for Dynamic Dense SLAM.” arXiv, Jul. 18, 2022. Accessed: Jul. 21, 2022. [Online]. Available: http://arxiv.org/abs/2207.08794
+
+[6] B. Hexsel, H. Vhavle, and Y. Chen, “DICP: Doppler Iterative Closest Point Algorithm,” in Robotics: Science and Systems XVIII, Jun. 2022. doi: 10.15607/RSS.2022.XVIII.015.
+
+[7] J. Sun et al., “Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving Object Segmentation.” arXiv, Jul. 05, 2022. Accessed: Jul. 06, 2022. [Online]. Available: http://arxiv.org/abs/2207.02201
+
+[8] W. Xu and F. Zhang, “FAST-LIO: A Fast, Robust LiDAR-inertial Odometry Package by Tightly-Coupled Iterated Kalman Filter.” arXiv, Apr. 14, 2021. Accessed: Jul. 06, 2022. [Online]. Available: http://arxiv.org/abs/2010.08196
+
+[9] V. Kubelka, M. Vaidis, and F. Pomerleau, “Gravity-constrained point cloud registration.” arXiv, Mar. 25, 2022. Accessed: Aug. 02, 2022. [Online]. Available: http://arxiv.org/abs/2203.13799
+
+[10] K. Ta, D. Bruggemann, T. Brödermann, C. Sakaridis, and L. Van Gool, “Lasers to Events: Automatic Extrinsic Calibration of Lidars and Event Cameras.” arXiv, Jul. 03, 2022. Accessed: Jul. 05, 2022. [Online]. Available: http://arxiv.org/abs/2207.01009
+
+[11] V. Amblard, T. P. Osedach, A. Croux, A. Speck, and J. J. Leonard, “Lidar-Monocular Surface Reconstruction Using Line Segments.” arXiv, Apr. 06, 2021. doi: 10.48550/arXiv.2104.02761.
+
+[12] M. C. Lesak, D. J. Gonzalez, M. W. Zhou, and A. J. Petruska, “Map-Free Lidar Odometry (MFLO) Using a Range Flow Constraint and Point Patch Covariances,” IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 10073–10080, Oct. 2022, doi: 10.1109/LRA.2022.3191198.
+
+[13] D. Hoeller, N. Rudin, C. Choy, A. Anandkumar, and M. Hutter, “Neural Scene Representation for Locomotion on Structured Terrain.” arXiv, Jun. 16, 2022. Accessed: Jul. 09, 2022. [Online]. Available: http://arxiv.org/abs/2206.08077
+
+[14] T.-M. Nguyen, S. Yuan, M. Cao, Y. Lyu, T. H. Nguyen, and L. Xie, “NTU VIRAL: A visual-inertial-ranging-lidar dataset, from an aerial vehicle viewpoint,” The International Journal of Robotics Research, vol. 41, no. 3, pp. 270–280, Mar. 2022, doi: 10.1177/02783649211052312.
+
+[15] J. Fu et al., “PlaneSDF-Based Change Detection for Long-Term Dense Mapping,” IEEE Robotics and Automation Letters, vol. 7, no. 4, pp. 9667–9674, Oct. 2022, doi: 10.1109/LRA.2022.3191794.
+
+[16] J. Qian, V. Chatrath, J. Yang, J. Servos, A. P. Schoellig, and S. L. Waslander, “POCD: Probabilistic Object-Level Change Detection and Volumetric Mapping in Semi-Static Scenes.” arXiv, May 02, 2022. Accessed: Jul. 07, 2022. [Online]. Available: http://arxiv.org/abs/2205.01202
+
+[17] W. Ye et al., “PVO: Panoptic Visual Odometry.” arXiv, Jul. 04, 2022. Accessed: Jul. 05, 2022. [Online]. Available: http://arxiv.org/abs/2207.01610
+
+[18] M. Orsingher, P. Zani, P. Medici, and M. Bertozzi, “Revisiting PatchMatch Multi-View Stereo for Urban 3D Reconstruction.” arXiv, Jul. 18, 2022. Accessed: Jul. 21, 2022. [Online]. Available: http://arxiv.org/abs/2207.08439
+
+[19] B. Peng, H. Xie, and W. Chen, “ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments.” arXiv, Mar. 08, 2022. doi: 10.48550/arXiv.2203.03923.
+
+[20] A. Kodaira, Y. Zhou, P. Zang, W. Zhan, and M. Tomizuka, “SST-Calib: Simultaneous Spatial-Temporal Parameter Calibration between LIDAR and Camera.” arXiv, Jul. 08, 2022. Accessed: Jul. 26, 2022. [Online]. Available: http://arxiv.org/abs/2207.03704
+
+[21] D. Duberg and P. Jensfelt, “UFOMap: An Efficient Probabilistic 3D Mapping Framework That Embraces the Unknown.” arXiv, Mar. 10, 2020. doi: 10.48550/arXiv.2003.04749.
+
+[22] L. Gao et al., “VECtor: A Versatile Event-Centric Benchmark for Multi-Sensor SLAM,” IEEE Robot. Autom. Lett., pp. 1–8, 2022, doi: 10.1109/LRA.2022.3186770.
+
+[23] D. Chen et al., “VIP-SLAM: An Efficient Tightly-Coupled RGB-D Visual Inertial Planar SLAM.” arXiv, Jul. 03, 2022. Accessed: Jul. 05, 2022. [Online]. Available: http://arxiv.org/abs/2207.01158
+
+[24] T.-M. Nguyen, S. Yuan, M. Cao, T. H. Nguyen, and L. Xie, “VIRAL SLAM: Tightly Coupled Camera-IMU-UWB-Lidar SLAM.” arXiv, Oct. 05, 2021. Accessed: Jul. 12, 2022. [Online]. Available: http://arxiv.org/abs/2105.03296
+
+[25] P. Dellenbach, J.-E. Deschaud, B. Jacquet, and F. Goulette, “What’s in My LiDAR Odometry Toolbox?” arXiv, Oct. 07, 2021. Accessed: Jul. 15, 2022. [Online]. Available: http://arxiv.org/abs/2103.09708
+
+
 ## 2022年6月论文更新
+
+[1] D. Tedaldi, A. Pretto, and E. Menegatti, “A robust and easy to implement method for IMU calibration without external equipments,” in 2014 IEEE International Conference on Robotics and Automation (ICRA), 2014, pp. 3042–3049. doi: 10.1109/ICRA.2014.6907297.
+
+[2] J. Cui, J. Niu, Z. Ouyang, Y. He, and D. Liu, “ACSC: Automatic Calibration for Non-repetitive Scanning Solid-State LiDAR and Camera Systems.” arXiv, Nov. 17, 2020. Accessed: Jun. 04, 2022. [Online]. Available: http://arxiv.org/abs/2011.08516
+
+[3] J. Beltrán, C. Guindel, A. de la Escalera, and F. García, “Automatic Extrinsic Calibration Method for LiDAR and Camera Sensor Setups,” IEEE Trans. Intell. Transport. Syst., pp. 1–13, 2022, doi: 10.1109/TITS.2022.3155228.
+
+[4] J. E. S. Leu, Y. Wang, M. Tomizuka, and S. D. Cairano, “Autonomous Vehicle Parking in Dynamic Environments: An Integrated System with Prediction and Motion Planning,” p. 8.
+
+[5] G. Pramatarov, D. De Martini, M. Gadd, and P. Newman, “BoxGraph: Semantic Place Recognition and Pose Estimation from 3D LiDAR.” arXiv, Jun. 30, 2022. Accessed: Jul. 01, 2022. [Online]. Available: http://arxiv.org/abs/2206.15154
+
+[6] L. Luo, S.-Y. Cao, B. Han, H.-L. Shen, and J. Li, “BVMatch: Lidar-based Place Recognition Using Bird’s-eye View Images.” Jan. 16, 2022. doi: 10.1109/LRA.2021.3091386.
+
+[7] H. Liu, T. Lu, Y. Xu, J. Liu, W. Li, and L. Chen, “CamLiFlow: Bidirectional Camera-LiDAR Fusion for Joint Optical Flow and Scene Flow Estimation.” arXiv, Apr. 12, 2022. Accessed: May 30, 2022. [Online]. Available: http://arxiv.org/abs/2111.10502
+
+[8] T. Ma, Z. Liu, G. Yan, and Y. Li, “CRLF: Automatic Calibration and Refinement based on Line Feature for LiDAR and Camera in Road Scenes.” arXiv, Mar. 08, 2021. Accessed: Jun. 06, 2022. [Online]. Available: http://arxiv.org/abs/2103.04558
+
+[9] X. Tian, J. Zhao, and C. Ye, “DL-SLOT: Dynamic Lidar SLAM and Object Tracking Based On Graph Optimization.” arXiv, Feb. 23, 2022. Accessed: Jul. 01, 2022. [Online]. Available: http://arxiv.org/abs/2202.11431
+
+[10] X. Zheng and J. Zhu, “Effective Solid State LiDAR Odometry Using Continuous-time Filter Registration.” arXiv, Jun. 16, 2022. Accessed: Jun. 22, 2022. [Online]. Available: http://arxiv.org/abs/2206.08517
+
+[11] X. Liu, C. Yuan, and F. Zhang, “Fast and Accurate Extrinsic Calibration for Multiple LiDARs and Cameras.” arXiv, Feb. 04, 2022. Accessed: Jun. 06, 2022. [Online]. Available: http://arxiv.org/abs/2109.06550
+
+[12] C. Zheng, Q. Zhu, W. Xu, X. Liu, Q. Guo, and F. Zhang, “FAST-LIVO: Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry.” arXiv, Mar. 02, 2022. Accessed: Jun. 07, 2022. [Online]. Available: http://arxiv.org/abs/2203.00893
+
+[13] Z. Bao, S. Hossain, H. Lang, and X. Lin, “High-Definition Map Generation Technologies For Autonomous Driving: A Review.” arXiv, Jun. 10, 2022. Accessed: Jun. 19, 2022. [Online]. Available: http://arxiv.org/abs/2206.05400
+
+[14] D. He, W. Xu, and F. Zhang, “Kalman Filters on Differentiable Manifolds.” arXiv, Jun. 26, 2021. Accessed: Jun. 28, 2022. [Online]. Available: http://arxiv.org/abs/2102.03804
+
+[15] X. Lv, B. Wang, Z. Dou, D. Ye, and S. Wang, “LCCNet: LiDAR and Camera Self-Calibration using Cost Volume Network,” in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Nashville, TN, USA, Jun. 2021, pp. 2888–2895. doi: 10.1109/CVPRW53098.2021.00324.
+
+[16] A. Dhall, K. Chelani, V. Radhakrishnan, and K. M. Krishna, “LiDAR-Camera Calibration using 3D-3D Point correspondences.” arXiv, May 27, 2017. Accessed: May 31, 2022. [Online]. Available: http://arxiv.org/abs/1705.09785
+
+[17] C. Qin, H. Ye, C. E. Pranata, J. Han, S. Zhang, and M. Liu, “LINS: A Lidar-Inertial State Estimator for Robust and Efficient Navigation.” arXiv, May 05, 2020. Accessed: Jun. 07, 2022. [Online]. Available: http://arxiv.org/abs/1907.02233
+
+[18] T. Shan, B. Englot, D. Meyers, W. Wang, C. Ratti, and D. Rus, “LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping,” in 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2020, pp. 5135–5142. doi: 10.1109/IROS45743.2020.9341176.
+
+[19] T. Shan, B. Englot, C. Ratti, and D. Rus, “LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping.” arXiv, May 30, 2021. Accessed: May 30, 2022. [Online]. Available: http://arxiv.org/abs/2104.10831
+
+[20] X. Zhong, Y. Li, S. Zhu, W. Chen, X. Li, and J. Gu, “LVIO-SAM: A Multi-sensor Fusion Odometry via Smoothing and Mapping,” in 2021 IEEE International Conference on Robotics and Biomimetics (ROBIO), 2021, pp. 440–445. doi: 10.1109/ROBIO54168.2021.9739244.
+
+[21] M. Arora, L. Wiesmann, X. Chen, and C. Stachniss, “Mapping the Static Parts of Dynamic Scenes from 3D LiDAR Point Clouds Exploiting Ground Segmentation,” in 2021 European Conference on Mobile Robots (ECMR), Bonn, Germany, Aug. 2021, pp. 1–6. doi: 10.1109/ECMR50962.2021.9568799.
+
+[22] V. Rudnev, M. Elgharib, W. Smith, L. Liu, V. Golyanik, and C. Theobalt, “Neural Radiance Fields for Outdoor Scene Relighting.” arXiv, Dec. 09, 2021. Accessed: Jun. 30, 2022. [Online]. Available: http://arxiv.org/abs/2112.05140
+
+[23] J. Lv, X. Zuo, K. Hu, J. Xu, G. Huang, and Y. Liu, “Observability-Aware Intrinsic and Extrinsic Calibration of LiDAR-IMU Systems.” arXiv, May 06, 2022. Accessed: Jun. 06, 2022. [Online]. Available: http://arxiv.org/abs/2205.03276
+
+[24] H. Dong, X. Chen, and C. Stachniss, “Online Range Image-based Pole Extractor for Long-term LiDAR Localization in Urban Environments,” in 2021 European Conference on Mobile Robots (ECMR), Bonn, Germany, Aug. 2021, pp. 1–6. doi: 10.1109/ECMR50962.2021.9568850.
+
+[25] Y. Wang and H. Ma, “Online Spatial and Temporal Initialization for a Monocular Visual-Inertial-LiDAR System,” IEEE Sensors Journal, vol. 22, no. 2, pp. 1609–1620, Jan. 2022, doi: 10.1109/JSEN.2021.3133578.
+
+[26] G. Yan et al., “OpenCalib: A multi-sensor calibration toolbox for autonomous driving.” arXiv, May 27, 2022. Accessed: May 30, 2022. [Online]. Available: http://arxiv.org/abs/2205.14087
+
+[27] Yuan Chongjian, Liu Xiyuan, Hong Xiaoping, and Zhang Fu, “Pixel-level Extrinsic Self Calibration of High Resolution LiDAR and Camera in Targetless Environments,” arXiv:2103.01627 [cs], Mar. 2021, Accessed: Apr. 21, 2021. [Online]. Available: http://arxiv.org/abs/2103.01627
+
+[28] J. Lin and F. Zhang, “R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package.” arXiv, Sep. 10, 2021. Accessed: Jun. 29, 2022. [Online]. Available: http://arxiv.org/abs/2109.07982
+
+[29] J. Quenzel and S. Behnke, “Real-time Multi-Adaptive-Resolution-Surfel 6D LiDAR Odometry using Continuous-time Trajectory Optimization.” arXiv, Sep. 29, 2021. Accessed: May 31, 2022. [Online]. Available: http://arxiv.org/abs/2105.02010
+
+[30] J. Jeong, Y. Cho, and A. Kim, “Road-SLAM : Road marking based SLAM with lane-level accuracy,” in 2017 IEEE Intelligent Vehicles Symposium (IV), Jun. 2017, pp. 1736–1473. doi: 10.1109/IVS.2017.7995958.
+
+[31] T. Qin, Y. Zheng, T. Chen, Y. Chen, and Q. Su, “RoadMap: A Light-Weight Semantic Map for Visual Localization towards Autonomous Driving.” arXiv, Jun. 04, 2021. Accessed: Jun. 14, 2022. [Online]. Available: http://arxiv.org/abs/2106.02527
+
+[32] F. Zhu, Y. Ren, and F. Zhang, “Robust Real-time LiDAR-inertial Initialization.” arXiv, Mar. 27, 2022. Accessed: May 31, 2022. [Online]. Available: http://arxiv.org/abs/2202.11006
+
+[33] S. Mishra, G. Pandey, and S. Saripalli, “Target-free Extrinsic Calibration of a 3D-Lidar and an IMU,” in 2021 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), Sep. 2021, pp. 1–7. doi: 10.1109/MFI52462.2021.9591180.
+
+[34] J. Lv, J. Xu, K. Hu, Y. Liu, and X. Zuo, “Targetless Calibration of LiDAR-IMU System Based on Continuous-time Batch Estimation,” in 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Las Vegas, NV, USA, Oct. 2020, pp. 9968–9975. doi: 10.1109/IROS45743.2020.9341405.
+
+[35] H. Ye, Y. Chen, and M. Liu, “Tightly Coupled 3D Lidar Inertial Odometry and Mapping,” in 2019 International Conference on Robotics and Automation (ICRA), May 2019, pp. 3144–3150. doi: 10.1109/ICRA.2019.8793511.
+
+
 
 ## 2022年5月论文更新
 
