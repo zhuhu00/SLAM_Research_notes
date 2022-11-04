@@ -43,7 +43,7 @@
 
 # 1. 经典代码框架及实验室
 
-见[SLAM-approachs](https://github.com/zhuhu00/SLAM_Research_dzh/tree/main/SLAM-approachs)
+见[SLAM-approachs](https://github.com/zhuhu00/SLAM_Research_dzh/tree/main/SLAM-approachs)，也可以见我的star tag：https://github.com/stars/zhuhu00/lists/slam-vio-ad-other
 
 # 2. 论文更新
 
